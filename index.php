@@ -15,6 +15,7 @@
 </head>
 
 <body>
+	<p>salut</p>
 	<?php if (isset($_GET['error'])) : ?>
 		<p><?php echo $_GET['error']; ?></p>
 	<?php endif ?>
