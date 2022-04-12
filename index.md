@@ -1,0 +1,4 @@
+<!-- RewriteEngine on
+RewriteCond %{HTTP_HOST} ^localhost:8080 [NC,OR]
+RewriteCond %{HTTP_HOST} ^localhost:8080 [NC]
+RewriteRule ^(.*)$ localhost:8080 [L,R=301,NC] 
